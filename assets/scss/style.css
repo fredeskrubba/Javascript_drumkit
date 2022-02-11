@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-image: url("../img/drums.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1 {
+  font-size: 8rem;
+  font-family: 'Architects Daughter', cursive;
+  border-bottom: 5px solid black;
+}
+
+#drumstick-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+#drumstick-container button {
+  font-size: 3rem;
+  padding: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+body{
+    background-image: url("../img/drums.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1{
+    font-size: 8rem;
+    font-family: 'Architects Daughter', cursive;
+    border-bottom: 5px solid black;
+}
+#drumstick-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    button{
+        font-size: 3rem;
+        padding: 2rem;
+    }
+}
