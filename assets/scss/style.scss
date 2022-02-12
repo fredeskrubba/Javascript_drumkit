@@ -1,13 +1,13 @@
 body{
-    background-image: url("../img/drums.jpg");
+    background-image: url("../img/concert.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 
 h1{
     font-size: 8rem;
-    font-family: 'Architects Daughter', cursive;
     border-bottom: 5px solid black;
 }
 #drumstick-container{
@@ -15,8 +15,16 @@ h1{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin: 1rem;
+    background-color: #3337;
+    border-radius: 10px;
+    padding: 2rem;  
     button{
-        font-size: 3rem;
-        padding: 2rem;
+        font-size: 4rem;
+        padding: 3rem;
+        font-family: 'Architects Daughter', cursive;
+        border: solid 5px red;
+        background-color: black;
+        color: red;
     }
 }

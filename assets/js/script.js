@@ -1,22 +1,30 @@
 const buttons = document.querySelectorAll("button");
 const buttonArray = Array.from(buttons);
 
+// for each loop that calls the sound function when button is pressed
 buttonArray.forEach(button =>{
     button.addEventListener("click", ()=>{
         sound(button.innerHTML);
     });
 });
 
+// Add keyboard support
 document.addEventListener("keypress", (e)=>{
+    // the e handler logs data about the key pressed
+    // e.key holds information about which key was pressed 
     sound(e.key);
 });
 
+
 function sound(key){
+    // switch statement that checks which key is pressed
     switch(key){
         // switch fallthrough cause || doesn't work in a switch
         case "q":
         case "Q":
+            // audio constructor that saves the audio source
             let sound1 = new Audio("assets/sounds/boom.wav");
+            // play audio method that triggers the sound
             sound1.play();
             break;
         case "w":
